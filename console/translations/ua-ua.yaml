@@ -1,0 +1,365 @@
+app:
+  name: Fleetbase
+terms:
+  new: Новий
+  sort: Сортувати
+  filter: Фільтр
+  columns: Стовпці
+  settings: Налаштування
+  home: Головна
+  admin: Адмін
+  logout: Вийти
+  dashboard: Панель приладів
+  search: Пошук
+  search-input: Поле пошуку
+common:
+  confirm: Підтвердити
+  edit: Редагувати
+  save: Зберегти
+  save-changes: Зберегти зміни
+  cancel: Скасувати
+  2fa-config: 2FA Конфігурація
+  account: Обліковий запис
+  admin: Адмін
+  branding: Брендування
+  columns: Стовпці
+  dashboard: Панель приладів
+  date-of-birth: Дата народження
+  delete: Видалити
+  email: Електронна пошта
+  filesystem: Файлова система
+  filter: Фільтр
+  home: Головна
+  logout: Вийти
+  mail: Пошта
+  name: Ім'я
+  new: Новий
+  notification-channels: Канали сповіщень
+  notifications: Сповіщення
+  organization: Організація
+  organizations: Організації
+  overview: Огляд
+  phone: Ваш номер телефону
+  profile: Профіль
+  queue: Черга
+  save-button-text: Зберегти зміни
+  search-input: Поле пошуку
+  search: Пошук
+  services: Сервіси
+  settings: Налаштування
+  socket: Сокет
+  sort: Сортувати
+  two-factor: Двофакторна автентифікація
+  uploading: Завантаження...
+  your-profile: Ваш профіль
+  created-at: Створено о
+  country: Країна
+  phone-number: Телефон
+  status: Статус
+  close-and-save: Закрити та зберегти
+  users: Користувачі
+  changelog: Журнал змін
+  ok: OK
+  select-file: Вибрати файл
+  back: Назад
+  next: Далі
+  continue: Продовжити
+  done: Готово
+  export: Експорт
+  reload: Перезавантажити
+  reload-data: Перезавантажити дані
+  unauthorized: Не авторизовано
+  unauthorized-to: Не авторизовано для
+  unauthorized-access: Неавторизований доступ
+  unauthorized-access-message: Неавторизований доступ, вам потрібно запросити дозволи для доступу.
+  permissions-required-for-changes: У вас немає необхідних дозволів для внесення змін.
+  push-notifications: Push-сповіщення
+  role: Роль
+component:
+  file:
+    dropdown-label: Дії з файлом
+  import-modal:
+    loading-message: Обробка імпорту...
+    drop-upload: Перетягніть для завантаження
+    invalid: Недійсний
+    ready-upload: Готовий до завантаження.
+    upload-spreadsheets: Завантажити таблиці
+    drag-drop: Перетягніть файли таблиць на цю зону
+    button-text: Або виберіть таблиці для завантаження
+    spreadsheets: Таблиці
+    upload-queue: Черга завантаження
+  dropzone:
+    file: файл
+    drop-to-upload: Перетягніть для завантаження
+    invalid: Недійсний
+    files-ready-for-upload: >-
+      {numOfFiles} готовий до завантаження.
+    upload-images-videos: Завантажити зображення та відео
+    upload-documents: Завантажити документи
+    upload-documents-files: Завантажити документи та файли
+    upload-avatar-files: Завантажити користувацькі аватари
+    dropzone-supported-images-videos: Перетягніть файли зображень і відео на цю зону
+    dropzone-supported-avatars: Перетягніть файли SVG або PNG
+    dropzone-supported-files: Перетягніть файли на цю зону
+    or-select-button-text: Або виберіть файли для завантаження.
+    upload-queue: Черга завантаження
+    uploading: Завантаження...
+  two-fa-enforcement-alert:
+    message: Щоб підвищити безпеку вашого облікового запису, ваша організація вимагає двофакторну автентифікацію (2FA). Увімкніть 2FA у налаштуваннях облікового запису для додаткового рівня захисту.
+    button-text: Налаштувати 2FA
+  comment-thread:
+    publish-comment-button-text: Опублікувати коментар
+    publish-reply-button-text: Опублікувати відповідь
+    reply-comment-button-text: Відповісти
+    edit-comment-button-text: Редагувати
+    delete-comment-button-text: Видалити
+    comment-published-ago: >-
+      {createdAgo} тому
+    comment-input-placeholder: Введіть новий коментар...
+    comment-reply-placeholder: Введіть вашу відповідь...
+    comment-input-empty-notification: Ви не можете публікувати порожні коментарі...
+    comment-min-length-notification: Коментар має містити не менше 2 символів
+  dashboard:
+    select-dashboard: Вибрати панель приладів
+    create-new-dashboard: Створити нову панель приладів
+    create-a-new-dashboard: Створити нову панель приладів
+    confirm-create-dashboard: Створити панель приладів!
+    edit-layout: Редагувати макет
+    add-widgets: Додати віджети
+    delete-dashboard: Видалити панель приладів
+    save-dashboard: Зберегти панель приладів
+    you-cannot-delete-this-dashboard: Ви не можете видалити цю панель приладів.
+    are-you-sure-you-want-delete-dashboard: Ви впевнені, що хочете видалити цю {dashboardName}?
+  dashboard-widget-panel:
+    widget-name: >-
+      Віджет {widgetName}
+    select-widgets: Вибрати віджети
+    close-and-save: Закрити та зберегти
+services:
+  dashboard-service:
+    create-dashboard-success-notification: Нова панель приладів `{dashboardName}` успішно створена.
+    delete-dashboard-success-notification: Панель приладів `{dashboardName}` була видалена.
+auth:
+  verification:
+    header-title: Підтвердження облікового запису
+    title: Підтвердьте вашу адресу електронної пошти
+    message-text: <strong>Майже готово!</strong><br> Перевірте вашу електронну пошту на наявність коду підтвердження.
+    verification-code-text: Введіть код підтвердження, який ви отримали електронною поштою.
+    verification-input-label: Код підтвердження
+    verify-button-text: Підтвердити та продовжити
+    didnt-receive-a-code: Ще не отримали код?
+    not-sent:
+      message: Ще не отримали код?
+      alternative-choice: Використовуйте альтернативні варіанти нижче, щоб підтвердити свій обліковий запис.
+      resend-email: Надіслати електронний лист повторно
+      send-by-sms: Надіслати за допомогою SMS
+  two-fa:
+    verify-code:
+      verification-code: Код підтвердження
+      check-title: Перевірте вашу електронну пошту або телефон
+      check-subtitle: Ми надіслали вам код підтвердження. Введіть код нижче, щоб завершити процес входу.
+      expired-help-text: Ваш код автентифікації 2FA закінчився. Ви можете запросити інший код, якщо вам потрібно більше часу.
+      resend-code: Надіслати код повторно
+      verify-code: Підтвердити код
+      cancel-two-factor: Скасувати двофакторну автентифікацію
+      invalid-session-error-notification: Недійсна сесія. Спробуйте ще раз.
+      verification-successful-notification: Підтвердження успішне!
+      verification-code-expired-notification: Термін дії коду підтвердження минув. Будь ласка, запросіть новий.
+      verification-code-failed-notification: Підтвердження не вдалося. Спробуйте ще раз.
+    resend-code:
+      verification-code-resent-notification: Новий код підтвердження надіслано.
+      verification-code-resent-error-notification: Помилка при повторній відправці коду підтвердження. Спробуйте ще раз.
+  forgot-password:
+    success-message: Перевірте вашу електронну пошту, щоб продовжити!
+    is-sent:
+      title: Майже готово!
+      message: <strong>Перевірте вашу електронну пошту!</strong><br> Ми надіслали вам чарівне посилання на вашу електронну пошту, за допомогою якого ви зможете скинути свій пароль. Посилання дійсне протягом 15 хвилин.
+    not-sent:
+      title: Забули свій пароль?
+      message: <strong>Не хвилюйтеся, ми вас підтримаємо.</strong><br> Введіть електронну пошту, яку ви використовуєте для входу в {appName}, і ми надішлемо вам безпечне посилання для скидання пароля.
+    form:
+      email-label: Ваша адреса електронної пошти
+      submit-button: OK, Надішліть мені чарівне посилання!
+      nevermind-button: Передумав
+  login:
+    title: Увійдіть у свій обліковий запис
+    no-identity-notification: Ви забули ввести свою електронну пошту?
+    no-password-notification: Ви забули ввести свій пароль?
+    unverified-notification: Ваш обліковий запис потрібно підтвердити, щоб продовжити.
+    password-reset-required: Для продовження потрібне скидання пароля.
+    failed-attempt:
+      message: <strong>Забули свій пароль?</strong><br> Натисніть кнопку нижче, щоб скинути свій пароль.
+      button-text: Гаразд, допоможіть мені скинути!
+    form:
+      email-label: Адреса електронної пошти
+      password-label: Пароль
+      remember-me-label: Запам'ятати мене
+      forgot-password-label: Забули свій пароль?
+      sign-in-button: Увійти
+      create-account-button: Створити новий обліковий запис
+    slow-connection-message: Проблеми з підключенням.
+  reset-password:
+    success-message: Ваш пароль було скинуто! Увійдіть, щоб продовжити.
+    invalid-verification-code: Це посилання для скидання пароля недійсне або термін його дії минув.
+    title: Скиньте свій пароль
+    form:
+      code:
+        label: Ваш код скидання
+        help-text: Код підтвердження, який ви отримали електронною поштою.
+      password:
+        label: Новий пароль
+        help-text: Введіть пароль довжиною не менше 6 символів, щоб продовжити.
+      confirm-password:
+        label: Підтвердьте новий пароль
+        help-text: Введіть пароль довжиною не менше 6 символів, щоб продовжити.
+      submit-button: Скинути пароль
+      back-button: Назад
+console:
+  create-or-join-organization:
+    modal-title: Створити або приєднатися до організації
+    join-success-notification: Ви приєдналися до нової організації!
+    create-success-notification: Ви створили нову організацію!
+  switch-organization:
+    modal-title: Ви впевнені, що хочете переключити організацію на {organizationName}?
+    modal-body: Підтверджуючи, ваш обліковий запис залишиться в системі, але ваша основна організація буде змінена.
+    modal-accept-button-text: Так, я хочу переключити організацію
+    success-notification: Ви переключили організації
+  account:
+    index:
+      upload-new: Завантажити новий
+      phone: Ваш номер телефону.
+      photos: фотографії
+  admin:
+    schedule-monitor:
+      schedule-monitor: Монітор розкладу
+      task-logs-for: >-
+        Журнали завдань для:
+      showing-last-count: Показано останні {count} журнали
+      name: Назва
+      type: Тип
+      timezone: Часовий пояс
+      last-started: Останній запуск
+      last-finished: Останнє завершення
+      last-failure: Остання помилка
+      date: Дата
+      memory: Пам'ять
+      runtime: Час виконання
+      output: Вивід
+      no-output: Немає виводу
+    config:
+      database:
+        title: Конфігурація бази даних
+      filesystem:
+        title: Конфігурація файлової системи
+      mail:
+        title: Конфігурація пошти
+      notification-channels:
+        title: Конфігурація Push-сповіщень
+      queue:
+        title: Конфігурація черги
+      services:
+        title: Конфігурація сервісів
+      socket:
+        title: Конфігурація сокета
+    branding:
+      title: Брендування
+      icon-text: Іконка
+      upload-new: Завантажити новий
+      reset-default: Скинути до стандартного
+      logo-text: Логотип
+      theme: Стандартна тема
+    index:
+      total-users: Загальна кількість користувачів
+      total-organizations: Загальна кількість організацій
+      total-transactions: Загальна кількість транзакцій
+    notifications:
+      title: Сповіщення
+      notification-settings: Налаштування сповіщень
+    organizations:
+      index:
+        title: Організації
+        owner-name-column: Власник
+        owner-phone-column: Телефон власника
+        owner-email-column: Електронна пошта власника
+        users-count-column: Користувачі
+        phone-column: Телефон
+        email-column: Електронна пошта
+      users:
+        title: Користувачі
+  settings:
+    index:
+      title: Налаштування організації
+      organization-name: Назва організації
+      organization-description: Опис організації
+      organization-phone: Номер телефону організації
+      organization-currency: Валюта організації
+      organization-id: ID організації
+      organization-branding: Брендування організації
+      logo: Логотип
+      logo-help-text: Логотип для вашої організації.
+      upload-new-logo: Завантажити новий логотип
+      backdrop: Фон
+      backdrop-help-text: Додатковий банер або фонове зображення для вашої організації.
+      upload-new-backdrop: Завантажити новий фон
+  extensions:
+    title: Розширення з'являться найближчим часом!
+    message: Будь ласка, перевірте майбутні версії, оскільки ми готуємося запустити репозиторій та маркетплейс розширень.
+  notifications:
+    select-all: Вибрати все
+    mark-as-read: Позначити як прочитане
+    received: >-
+      Отримано:
+    message: Немає сповіщень для відображення.
+invite:
+  for-users:
+    invitation-message: Вас запрошено приєднатися до {companyName}
+    invitation-sent-message: Вас запрошено приєднатися до організації {companyName} на {appName}. Щоб прийняти це запрошення, введіть код запрошення, отриманий електронною поштою, і натисніть «Продовжити».
+    invitation-code-sent-text: Ваш код запрошення
+    accept-invitation-text: Прийняти запрошення
+onboard:
+  index:
+    title: Створіть свій обліковий запис
+    welcome-title: <strong>Ласкаво просимо до {companyName}!</strong><br />
+    welcome-text: Заповніть необхідні нижче дані, щоб розпочати.
+    full-name: Повне ім'я
+    full-name-help-text: Ваше повне ім'я
+    your-email: Адреса електронної пошти
+    your-email-help-text: Ваша адреса електронної пошти
+    phone: Номер телефону
+    phone-help-text: Ваш номер телефону
+    organization-name: Назва організації
+    organization-help-text: Назва вашої організації, усі ваші послуги та ресурси будуть керуватися в рамках цієї організації, пізніше ви зможете створити стільки організацій, скільки захочете або потребуватимете.
+    password: Введіть пароль
+    password-help-text: Ваш пароль, переконайтеся, що він надійний.
+    confirm-password: Підтвердьте свій пароль
+    confirm-password-help-text: Просто щоб підтвердити пароль, який ви ввели вище.
+  continue-button-text: Продовжити
+  verify-email:
+    header-title: Підтвердження облікового запису
+    title: Підтвердьте вашу адресу електронної пошти
+    message-text: <strong>Майже готово!</strong><br> Перевірте вашу електронну пошту на наявність коду підтвердження.
+    verification-code-text: Введіть код підтвердження, який ви отримали електронною поштою.
+    verification-input-label: Код підтвердження
+    verify-button-text: Підтвердити та продовжити
+    didnt-receive-a-code: Ще не отримали код?
+    not-sent:
+      message: Ще не отримали код?
+      alternative-choice: Використовуйте альтернативні варіанти нижче, щоб підтвердити свій обліковий запис.
+      resend-email: Надіслати електронний лист повторно
+      send-by-sms: Надіслати за допомогою SMS
+install:
+  installer-header: Інсталятор
+  failed-message-sent: Помилка встановлення! Натисніть кнопку нижче, щоб повторити спробу встановлення.
+  retry-install: Повторити встановлення
+  start-install: Почати встановлення
+layout:
+  header:
+    menus:
+      organization:
+        settings: Налаштування організації
+        create-or-join: Створити або приєднатися до організації
+        explore-extensions: Дослідити розширення
+      user:
+        view-profile: Переглянути профіль
+        keyboard-shortcuts: Показати клавіатурні скорочення
+        changelog: Журнал змін

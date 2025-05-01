@@ -1,24 +1,4 @@
-<div id="hero">
-  <p align="center" dir="auto">
-      <a href="https://fleetbase.io" rel="nofollow">
-        <img src="https://user-images.githubusercontent.com/58805033/191936702-fed04b0f-7966-4041-96d0-95e27bf98248.png" alt="Fleetbase logo" width="500" height="120" style="max-width: 100%;">
-      </a>
-    </p>
-    <p align="center" dir="auto">
-      Modular logistics and supply chain operating system
-      <br>
-      <a href="https://docs.fleetbase.io/" rel="nofollow">Documentation</a>
-      ·
-      <a href="https://console.fleetbase.io" rel="nofollow">Cloud Version</a>
-      ·
-      <a href="https://fleetbase.apichecker.com" target="_api_status" rel="nofollow">API Status</a>
-      ·
-      <a href="https://tally.so/r/3NBpAW" rel="nofollow">Book a Demo</a>
-      ·
-      <a href="https://discord.gg/V7RVWRQ2Wm" target="discord" rel="nofollow">Discord</a>
-    </p>
-    <hr />
-</div>
+
 
 ## What is Fleetbase?
 
@@ -27,7 +7,7 @@ Fleetbase is a modular logistics and supply chain operating system designed to s
 <p align="center" dir="auto">
   <img src="https://github.com/fleetbase/fleetbase/assets/816371/125348c9-c88a-49fe-b098-9abec9d7dff8" alt="Fleetbase Console" width="1200" style="max-width: 100%;" />
 </p>
-
+~~~~
 **Quickstart**
 
 ```bash
